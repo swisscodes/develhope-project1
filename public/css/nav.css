@@ -1,0 +1,117 @@
+#nav-main {
+    position: fixed;
+    width: 100%;
+}
+
+.nav-top-setion {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        'left-nav right-nav ';
+    min-height: 3.25em;
+    background-color: rgb(255, 255, 255);
+    gap: 10px;
+    border-bottom:  1px solid rgb(218, 218, 218);
+}
+
+.left-nav {
+    grid-area: left-nav;
+    display: flex;
+    gap: 1rem;
+}
+
+
+.brand-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6.5625em;
+    height: 3.25em;
+    background-color: #E60012;
+}
+
+.brand-logo img {
+    width: fit-content;
+}
+
+.search-form {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-self: center;
+    height: 2.125rem;
+    border-bottom:  1px solid rgb(72, 72, 72);
+
+}
+
+.search-form:hover  {
+    border-bottom:  1px solid #E60012;
+    color: red;
+}
+
+.left-nav__input {
+    position: relative;
+    display: flex;
+    min-width: 18.75em;
+}
+
+.left-nav__input input {
+    width: 260px;
+    height: 100%;
+    padding-left: 30px;
+    padding-right: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.left-nav__input input:hover::placeholder, .left-nav__input:hover .search_svg path {
+    color: #E60012;
+    fill: #E60012;
+}
+
+
+
+.left-nav__search {
+    position: absolute;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+}
+
+select option {
+    text-align: center;
+    padding-top: 5px;
+}
+
+select {
+    outline: none;
+    border: none;
+    padding: 5px;
+    font-weight: 700;
+}
+
+
+.right-nav {
+    grid-area: right-nav;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1.75em;
+    padding: 0px 1.25em;
+}
+
+.right-nam__items {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    transition: color 200ms ease-in-out;
+}
+
+.right-nam__items:hover {
+    color: #E60012;
+    fill: #E60012;
+    transition: color 200ms ease-in-out;
+}
