@@ -1,0 +1,108 @@
+@import url('nav.css');
+/**************************FONTS **************/
+@font-face {
+    font-family: 'museo-sans';
+    font-style: normal;
+    font-weight: 100;
+    src: local(''),
+         url('../public/fonts/museo-sans/MuseoSansCyrl-100.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+}
+/* ubuntu-italic - latin */
+@font-face {
+    font-family: 'museo-sans';
+    font-style: italic;
+    font-weight: 100;
+    src: local(''),
+         url('../public/fonts/museo-sans/MuseoSansCyrl-100Italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+}
+/* ubuntu-300normal - latin */
+@font-face {
+    font-family: 'museo-sans';
+    font-style: normal;
+    font-weight: 300;
+    src: local(''),
+         url('../public/fonts/museo-sans/MuseoSansCyrl-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+}
+/* ubuntu-300italic- latin */
+@font-face {
+    font-family: 'museo-sans';
+    font-style: italic;
+    font-weight: 300;
+    src: local(''),
+         url('../public/fonts/museo-sans/MuseoSansCyrl-300Italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+}
+/* ubuntu-500 - latin */
+@font-face {
+    font-family: 'museo-sans';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''),
+         url('../public/fonts/museo-sans/MuseoSansCyrl-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+}
+/* ubuntu-500italic - latin */
+@font-face {
+    font-family: 'museo-sans';
+    font-style: italic;
+    font-weight: 500;
+    src: local(''),
+         url('../public/fonts/museo-sans/MuseoSansCyrl-500Italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+}
+/* ubuntu-700normal - latin */
+@font-face {
+        font-family: 'museo-sans';
+        font-style: italic;
+        font-weight: 700;
+        src: local(''),
+             url('../public/fonts/museo-sans/MuseoSansCyrl-700Italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+}
+/* ubuntu-700italic - latin */
+@font-face {
+    font-family: 'museo-sans';
+    font-style: italic;
+    font-weight: 700;
+    src: local(''),
+         url('../public/fonts/museo-sans/MuseoSansCyrl-700Italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+}
+/* ubuntu-900normal - latin */
+@font-face {
+    font-family: 'museo-sans';
+    font-style: italic;
+    font-weight: 900;
+    src: local(''),
+         url('../public/fonts/museo-sans/MuseoSansCyrl-900Italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+}
+/* ubuntu-900italic - latin */
+@font-face {
+font-family: 'museo-sans';
+font-style: italic;
+font-weight: 900;
+src: local(''),
+     url('../public/fonts/museo-sans/MuseoSansCyrl-900Italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+  font-family: 'museo-sans', Sans-serif;
+  line-height: 1.4;
+  color:rgb(72, 72, 72);
+}
+
+
+img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    /* Prevent the image from stretching. So it crops the image to prevent from awkward stretching */
+  }
