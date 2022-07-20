@@ -115,3 +115,7 @@ select {
     fill: #E60012;
     transition: color 200ms ease-in-out;
 }
+
+.nav-category:hover select {
+    color: #E60012;
+}
