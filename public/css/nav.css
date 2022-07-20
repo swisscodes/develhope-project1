@@ -115,3 +115,30 @@ select {
     fill: #E60012;
     transition: color 200ms ease-in-out;
 }
+.nav-bottom-setion {
+  border-bottom: 1px solid #dfdfdf;
+
+}
+
+.container-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+ margin: 0.5em auto;
+  gap: 1.3em;
+  width: 100%;
+  max-width: 950px;
+}
+.nav-item {
+  cursor: pointer;
+  display: inline-flex;
+  gap: 7px;
+  padding-left: 1.2em;
+  
+}
+.nav-item:hover {
+  color: #e60012;
+  fill: #e60012;
+  transition: color 200ms ease-in-out;
+}
