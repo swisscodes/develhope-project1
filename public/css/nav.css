@@ -115,8 +115,7 @@ select {
     fill: #E60012;
     transition: color 200ms ease-in-out;
 }
-.nav-bottom-setion {
-  border-bottom: 1px solid #dfdfdf;
+.nav-bottom-section {
 
 }
 
