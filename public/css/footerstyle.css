@@ -1,0 +1,26 @@
+footer {
+  gap: 2rem;
+  align-items: center;
+  display: grid;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer {
+  background-color: rgb(230, 0, 18);
+  padding: 2.25rem 1rem;
+  color: rgb(255, 255, 255);
+  -webkit-box-align: center;
+}
+
+.socials {
+  color: #000;
+  display: grid;
+  align-items: center;
+  grid-template-columns: auto repeat(4, 68px);
+}
+
+.body {
+  height: 90%;
+}
