@@ -1,0 +1,13 @@
+.first-sect {
+    position: relative;
+}
+
+.first-sect-bg {
+    position: absolute;
+    background-image: url("../images/Nintendo\ Pictures/");
+}
+
+@media (max-width: 1000px) {
+    .main-content {
+    }
+}

@@ -1,4 +1,6 @@
 @import url('nav.css');
+@import url('footerstyle.css');
+@import url('main.css');
 /**************************FONTS **************/
 @font-face {
     font-family: 'museo-sans';
