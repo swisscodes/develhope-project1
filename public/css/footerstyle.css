@@ -2,7 +2,6 @@ footer {
   gap: 2rem;
   align-items: center;
   display: grid;
-  position: absolute;
   bottom: 0;
   width: 100%;
 }
