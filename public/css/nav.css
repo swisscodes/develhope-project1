@@ -126,9 +126,9 @@ select {
 }
 .nav-item {
   cursor: pointer;
-  display: inline-flex;
-  gap: 7px;
-  padding-left: 1.2em;
+  display: flex;
+  gap: 1rem;
+  padding-left: 1.5em;
 }
 .nav-item:hover,
 .menu-btn:hover,
@@ -156,6 +156,7 @@ select {
 }
 .nav-item:hover .dropdown-menu {
   display: block;
+  float: left;
   text-align: left;
   padding-left: 0.5em;
 }
@@ -168,7 +169,6 @@ select {
   cursor: pointer;
 }
 
-
 .title-nav-dropdown {
   text-align: left;
   margin: 0.5em 0;
@@ -176,7 +176,7 @@ select {
 }
 .featured-flex-nav {
   margin-top: 1em;
-  width: 210px;
+  width: 250px;
   float: left;
 }
 .icon {
