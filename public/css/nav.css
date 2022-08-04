@@ -167,12 +167,8 @@ select {
   border: none;
   cursor: pointer;
 }
-a {
-  text-decoration: none;
-  color: #000;
-  margin-top: 0.5em;
-  display: block;
-}
+
+
 .title-nav-dropdown {
   text-align: left;
   margin: 0.5em 0;

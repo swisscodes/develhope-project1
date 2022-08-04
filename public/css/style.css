@@ -101,6 +101,11 @@ body {
   color:rgb(72, 72, 72);
 }
 
+a {
+    text-decoration: none;
+    color: #000;
+  }
+
 
 img {
     width: 100%;
