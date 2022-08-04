@@ -20,7 +20,3 @@ footer {
   align-items: center;
   grid-template-columns: auto repeat(4, 68px);
 }
-
-.body {
-  height: 90%;
-}

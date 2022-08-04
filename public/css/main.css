@@ -1,6 +1,6 @@
 .first-sect {
     position: relative;
-    height: 40.625em;
+    
 }
 
 .first-sect-bg {
@@ -8,7 +8,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 68%;
+    height: calc(100% - 13.5rem);
     background-image: url("../images/nintendo-pictures/online-store/bg.jpg");
 }
 
@@ -25,6 +25,7 @@
     margin-right: auto;
 }
 .first-sect-img picture img {
+    width: 100%;
     border-radius: 0.25rem;
 }
 
