@@ -8,15 +8,45 @@ footer {
 }
 
 .footer {
-  background-color: rgb(230, 0, 18);
-  padding: 2.25rem 1rem;
-  color: rgb(255, 255, 255);
-  -webkit-box-align: center;
 }
 
 .socials {
+  background-color: rgb(230, 0, 18);
+  padding: 2.25rem 1rem;
+  color: rgb(255, 255, 255);
+  height: 150px;
   color: #000;
   display: grid;
   align-items: center;
   grid-template-columns: auto repeat(4, 68px);
+}
+
+.GRAYSECTION {
+  display: grid;
+  grid-template-columns: 229.328125px 229.328125px 229.328125px 229.328125px 229.328125px 229.328125px;
+  background-color: rgb(255, 255, 255);
+  padding: 2rem 1rem;
+}
+.GRAYSECTION span {
+  font-family: museo-sans, -apple-system, BlinkMacSystemFont, sans-serif;
+  color: rgb(72, 72, 72);
+}
+.GRAYSECTION .sections h3 {
+  margin: 0 0 1rem 0;
+}
+.GRAYSECTION .sections {
+  padding-left: 1.5rem;
+}
+.GRAYSECTION .left {
+  border-left-style: solid;
+  border-left-width: 1px;
+  color: rgb(72, 72, 72);
+  height: 260px;
+  line-height: 22.399999618530273px;
+  padding-left: 24px;
+  width: 229.328125px;
+}
+
+.GRAYSECTION .footerLinks {
+  color: rgb(172, 0, 13);
 }
