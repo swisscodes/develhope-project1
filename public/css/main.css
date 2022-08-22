@@ -1,113 +1,352 @@
 .first-sect {
-    position: relative;
-    
+  position: relative;
 }
 
 .first-sect-bg {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: calc(100% - 13.5rem);
-    background-image: url("https://assets.nintendo.com/image/upload/q_60/f_auto/dpr_auto/ncom/en_US/merchandising/center-stage-banner/xenoblade-chronicles-3/xbc3-constellation-tile");
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: calc(100% - 13.5rem);
+  background-image: url("https://assets.nintendo.com/image/upload/q_60/f_auto/dpr_auto/ncom/en_US/merchandising/center-stage-banner/xenoblade-chronicles-3/xbc3-constellation-tile");
 }
 
 .first-sect-img {
-    position: relative;
-    width: 100%;
-    padding-top: 2rem;
+  position: relative;
+  width: 100%;
+  padding-top: 2rem;
 }
 
 .first-sect-img picture {
-    display: block;
-    width: 96%;
-    margin-left: auto;
-    margin-right: auto;
+  display: block;
+  width: 96%;
+  margin-left: auto;
+  margin-right: auto;
 }
 .first-sect-img picture img {
-    width: 100%;
-    border-radius: 0.25rem;
+  width: 100%;
+  border-radius: 0.25rem;
 }
 
 .first-sect-xeno {
-    width: 96%;
-    margin-left: auto;
-    margin-right: auto;
-    border-bottom: 1px solid grey;
-    height:8.2rem;;
+  width: 96%;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 1px solid grey;
+  height: 8.2rem;
 }
 .fs-x-sect {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .fs-x-div {
-    display: grid;
-    grid-template-columns: auto 1fr 1fr;
-    gap: 2rem;
-    margin-top: 2rem;
-    width: 100%;
+  display: grid;
+  grid-template-columns: auto 1fr 1fr;
+  gap: 2rem;
+  margin-top: 2rem;
+  width: 100%;
 }
 
 .fs-x-div h1 {
-    font-size: 1.75rem;
+  font-size: 1.75rem;
 }
 .link-btn-div {
-    position: relative;
-    width: max-content;
+  position: relative;
+  width: max-content;
 }
 
 .link-btn {
-    position: relative;
-    display: inline-flex;
-    align-items: center;
-    font-size: 1.125rem;
-    height: 3rem;
-    font-size: 1.125rem;
-    padding: 0px 1.5rem;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  font-size: 1.125rem;
+  height: 3rem;
+  font-size: 1.125rem;
+  padding: 0px 1.5rem;
 }
 
 .link-btn span {
-    z-index: 1;
-    color: white;
-    font-weight: bold;
+  z-index: 1;
+  color: white;
+  font-weight: bold;
 }
 
 .link-btn::before {
-    position: absolute;
+  position: absolute;
 
-    content: "";
-    border-width: 1px;
-    border-style: solid;
-    border-color: rgb(230, 0, 18);
-    background-color: rgb(230, 0, 18);
-    height: calc(100% - 2px);
-    width: calc(100% - 2px);
-    top: 0px;
-    left: 0px;
-    padding: 0px;
-    border-radius: 0.25rem;
+  content: "";
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(230, 0, 18);
+  background-color: rgb(230, 0, 18);
+  height: calc(100% - 2px);
+  width: calc(100% - 2px);
+  top: 0px;
+  left: 0px;
+  padding: 0px;
+  border-radius: 0.25rem;
 }
 
-
 .teen_link {
-    display: flex;
-    gap:0.75rem;
+  display: flex;
+  gap: 0.75rem;
 }
 
 .teen-text {
-    display: flex;
-    justify-content: center;
-    flex-flow: column;
-    font-size: 0.75rem;
-    line-height: 1.2rem;
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  font-size: 0.75rem;
+  line-height: 1.2rem;
 }
 
 .teen-text-1 {
-    border-bottom: 1.5px solid grey;
+  border-bottom: 1.5px solid grey;
+}
+/* start featured section */
+.img-grid-featured {
+  max-width: 100%;
+}
+.title-featured {
+  margin: 1em 0;
+}
+.container-featured {
+  margin-top: 3rem;
+}
+.featured {
+  max-width: 95%;
+  margin: 2em auto;
+}
+.grid-featured {
+  cursor: pointer;
+  gap: 1rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.child {
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+.child h3 {
+  padding: 1em;
+}
+.child p {
+  padding: 1em 1.5em;
+}
+.child h3:hover,
+.child h3:focus {
+  color: red;
+}
+.child p::before {
+  content: "";
+  background-color: red;
+  display: inline-block;
+  width: 3px;
+  height: 3vh;
+  position: relative;
+  z-index: -1;
+  left: -5px;
+  top: 7px;
+}
+/* .img-grid-featured {
+  transition: all 500ms linear;
+} */
+.img-grid-featured:hover {
+  position: relative;
+  top: -10px;
+}
+@media (min-width: 800px) {
+  .grid-featured {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
 }
 
+/* finish featured section */
+/* start online and gaming section */
+
+.online-store,
+.gaming-system {
+  width: 95%;
+  max-width: 1000px;
+  margin: 2em auto;
+}
+img {
+  max-width: 100%;
+}
+.img-dextop,
+.img-phone,
+.img-gaming-system {
+  cursor: pointer;
+}
+.btn {
+  margin-top: 0.3em;
+  color: #fff;
+  padding: 10px 25px;
+  background-color: red;
+  border: none;
+  cursor: pointer;
+  border-radius: 2px;
+}
+.btn:hover,
+.btn:focus {
+  background-color: rgb(129, 0, 0);
+  transition: 2ms ease-in-out;
+  transform: scale(1.1);
+}
+.flex-online-store {
+  margin-top: 2em;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1000px;
+  flex-wrap: wrap;
+}
+.col-1-online {
+  max-width: 100%;
+  width: 750px;
+}
+.flex-gaming-system {
+  margin-top: 2em;
+  display: flex;
+  gap: 1rem;
+}
+.border {
+  border-top: 2px solid #dadada;
+}
+.title-online-store,
+.title-gaming-system {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+@media (max-width: 750px) {
+  .flex-online-store,
+  .flex-gaming-system {
+    flex-direction: column;
+  }
+  .btn {
+    margin: 1em auto;
+    width: 100%;
+  }
+  .img-dextop {
+    display: none;
+  }
+}
+@media (min-width: 750px) {
+  .img-dextop {
+    display: block;
+  }
+  .img-phone {
+    display: none;
+  }
+}
+/* finish online and gaming section */
+/* Start news section  */
+img {
+  max-width: 100%;
+}
+.border {
+  /* border-bottom: 2px solid #dadada; */
+  /* border-top: 2px solid #dadada; */
+  margin: 2em 0;
+}
+.news {
+  margin: 1em auto;
+  width: 100%;
+  max-width: 1100px;
+}
+.title-news {
+  margin: 2em 0;
+  text-transform: capitalize;
+}
+.flex-news-container {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.col-1,
+.col-2 {
+  width: 47%;
+}
+.title-col-1 {
+  padding: 0;
+  padding-right: 0;
+  max-width: 800px;
+  width: 100%;
+  margin-bottom: 1em;
+}
+.date-par {
+  margin: 1em 0;
+}
+.par-col-1 {
+  max-width: 550px;
+}
+.par-col-2 {
+  margin-top: 2.3em;
+}
+.read-more-news {
+  text-decoration: none;
+  color: red;
+  border-bottom: 2px solid red;
+  display: inline-block;
+  margin: 2em 0;
+}
+/* grid bottom */
+.grid-bottom-news {
+  cursor: pointer;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+.col-grid p {
+  margin: 1em 0;
+}
+.read-more-grid {
+  color: red;
+}
+.more-news {
+  display: inline-block;
+  margin-top: 1.4em;
+}
+.read-more-links {
+  margin-top: 1em;
+}
+.grid-margin {
+  display: inline-block;
+  margin-top: 3.3rem;
+}
+.title-grid {
+  max-width: 90%;
+}
 @media (max-width: 1000px) {
-    .main-content {
-    }
+  .news {
+    padding: 0 2em;
+  }
+  .flex-news-container {
+    flex-wrap: wrap;
+  }
+  .col-1,
+  .col-2 {
+    width: 100%;
+  }
+  .grid-bottom-news {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .grid-margin {
+    margin-top: 3em;
+  }
+  .read-more-col-1 {
+    margin-top: 2em;
+  }
+  .more-news {
+    margin-top: 0;
+  }
+}
+
+/* finish news section */
+@media (max-width: 1000px) {
+  .main-content {
+  }
 }
